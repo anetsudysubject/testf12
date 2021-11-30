@@ -1,52 +1,24 @@
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  padding: 0.5em;
-}
-form {
-  width: 350px;
-  font-family: Verdana sans-serif;
-  font-size: 15px;
-  padding: 1em;
-  border: 1px solid #000;
-  border-radius: 1em;
-  margin: auto;
-}
-input {
-  font: 1em sans-serif;
-  width: 210px;
-  box-sizing: border-box;
-  border: 1px solid #777;
-}
-input:focus {
-  border-color: #af1070;
-}
- input[type="radio"] {
-  width: auto;
-}
-input[id="submit"] {
-  display: block;
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-}
-label span {
-  width: 100px;
-  text-align:left;
-  display: inline-block;
-  font-weight: bold;
+body {
+  background-image: url(../img/sushi.jpg);
 }
 p {
-  font-weight: bold;
+  font-size: 2em;
+  margin-left: 8em;
 }
-
-textarea {
-  vertical-align: top;
-  margin-left: 15px;
-  width: 200px;
-  height: 100px;
+h1 {
+  margin-left: 6em;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.button {
+  width: 300px;
+  font-size: 2em;
+  text-align:center;
+  border: 1px solid;
+  border-radius: 1em;
+  color: #b9755c;
+  background-color: #d77c55;
+  margin-left: 6em;
 }
