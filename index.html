@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Форма заказа</title>
+</head>
+<body>
+  <form>
+    <ul>
+      <li>
+        <label>
+          <span>Имя:</span>
+          <input type="text" name="firstName" id="fname">
+        </label>
+      </li>
+      <li>
+        <label>
+          <span>Город:</span>
+          <input type="text" name="town" id="town" list="listTown">
+          <datalist id="listTown">
+            <option>Краматорск</option>
+            <option>Киев</option>
+            <option>Харьков</option>
+            <option>Одесса</option>
+            <option>Запорожье</option>
+          </datalist>
+        </label>
+      </li>
+      <li>
+        <li>
+          <label>
+            <span>Адресс:</span>
+            <input type="text" name="address" id="userAdress">
+          </label>
+        </li>
+        <li>
+          <label>
+            <span>Телефон:</span>
+            <input type="text" name="phone" id="userPhone">
+          </label>
+        </li>
+        <li>
+        <label>
+          <span>Email:</span>
+          <input type="email" name="email" id="email">
+        </label>
+      </li>
+      <li>
+        <label>
+          <p>Выберите необходимое количество палочек</p>
+          <input type="number" name="how" id="how" min="1" max="15" step="1">
+        </label>
+      </li>
+      <li>
+        <p>Вид палочек:</p>
+        <input type="radio" value="ordinary" id="ordinary" name="view">
+        <label for="ordinary">Обычные</label>
+        <input type="radio" value="study" id="study" name="view">
+        <label for="study">Учебные</label>
+      </li>
+      <li>
+        <label>
+          <p>Выберите суши:</p>
+           <select id="nameSushi" name="nameSushi">
+            <option>Филадельфия</option>
+            <option>Калифорния</option>
+            <option>Акинава</option>
+            <option>Атай</option>
+            <option>Китами</option>
+          </select>
+        </label>
+      </li>
+      <li>
+        <p>Салфетки:</p>
+        <input type="radio" value="yes" id="yes" name="s">
+        <label for="yes">Да</label>
+        <input type="radio" value="now" id="now" name="s">
+        <label for="now">Нет</label>
+      </li>
+      <li>
+        <label for="message">Коментарий</label>
+        <textarea name="userMessage" id="message"></textarea>
+      </li>
+      <li id="buttons">
+      <input type="submit" value="Заказать" id="submit">
+     </li>
+    </ul>
+  </form>
+</body>
+</html>
