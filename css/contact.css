@@ -1,0 +1,109 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Roboto', "Aria" sans-serif;
+    font-weight: 500;
+}
+
+.main-nav {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    padding: 5px;
+    background: #93435b;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+  }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+
+nav div {
+  font-style: italic;
+  border: solid;
+  border-color: #fff;
+  border-radius: 70%;
+  padding: 2px 5px 1px 5px;
+  float: left;
+  color: #fff;
+
+}
+
+nav ul li {
+    margin-left: 35px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+nav ul a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 4px;
+    transition: .3s;
+}
+
+.mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 35px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color:#787171;
+}
+ul a.active {
+  color: #787171;
+  cursor: default;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+header {
+   background-image: url(../img/hederbg.jpg);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin: 0;
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+#button {
+  background-color: #93435b;
+}
+
+#footer {
+    background-color: #93435b;
+    color: #fff;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+#footer  p {
+  text-align: center;
+}

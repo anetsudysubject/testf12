@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 32.973999 63.676392" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a">
+   <stop stop-color="#a18930" offset="0"/>
+   <stop stop-color="#e3c565" offset=".66667"/>
+   <stop stop-color="#fffbcc" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="32.232" x2="41.601" y1="52.825" y2="65.947" gradientUnits="userSpaceOnUse" xlink:href="#a" spreadMethod="reflect"/>
+  <linearGradient id="b" x1="44.906" x2="51.25" y1="38.795" y2="47.564" gradientUnits="userSpaceOnUse" xlink:href="#a" spreadMethod="reflect"/>
+ </defs>
+ <g transform="translate(-106.56 -123.78)">
+  <path d="m138.54 124.78v34.888c-3e-5 7.6539-1.1571 13.528-3.4711 17.622-3.4422 6.1111-9.5542 9.1667-18.336 9.1667-1.0665 0-2.0746-0.07424-3.0243-0.22271s-1.7505-0.28157-2.4024-0.39927l-3.74-15.131c1.3653 0.41467 2.5078 0.71117 3.4277 0.88951s2.4182 0.26755 4.4951 0.26753c3.3226 2e-5 5.5177-0.84558 6.5851-2.5368s1.6011-4.7024 1.6011-9.0336v-33.731l14.865-1.779z" fill="url(#c)" stroke="url(#b)" stroke-width="2"/>
+ </g>
+</svg>
